@@ -1,0 +1,99 @@
+
+#search:hover{
+    box-shadow: 0px 1px 3px 1px rgb(218 218 218);
+}
+
+form {
+    display:block;
+    width: 30%;
+    margin-left: 35%;
+}
+
+#sbox{
+    background: url(images/search.png) no-repeat scroll 10px 6px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    border:1px darkgrey solid;
+    width: 90%;
+    height: 44px;
+    padding-left: 50px;
+    margin: 30px 0px;
+    display: flex;
+    flex: 1px;
+    background-size: 30px;
+    box-sizing: content-box;
+}
+
+.logo {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.glogo {
+    display: block;
+    margin: 0px auto;
+}
+
+.buttons:hover{
+    border: 1px solid #c0c0c0;
+}
+.buttons {
+    margin: 5px;
+    padding: 10px;
+    color: #3b3b3b;
+    background-color: #eee;
+    border-color: #c0c0c0;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+div {
+    display: block;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+/* .button {
+    overflow: visible;
+    background-color: #f4f4f4;
+    color: #646368;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    display: inline-block;
+    width: auto;
+    line-height: 27px;
+} */
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.button div {
+    margin: 5px;
+    padding: 10px;
+    color: #3b3b3b;
+    background-color: #eee;
+    border-color: #c0c0c0;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.button div:hover{
+    outline: solid 1px darkgray;
+}
